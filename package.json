@@ -1,6 +1,6 @@
 {
-  "name": "resx-json-typescript-converter",
-  "version": "1.0.1",
+  "name": "@wagich/resx-json-typescript-converter",
+  "version": "1.0.1-custom001",
   "description": "Converts resx files to json and optionaly generates a TypeScript resourceManager.",
   "main": "dist/index.js",
   "scripts": {
@@ -19,9 +19,12 @@
     "fileseek_plus": "^1.0.4",
     "xml2js": "*"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blueasysoft/resx-json-typescript-converter.git"
+    "url": "git+https://github.com/wagich/resx-json-typescript-converter.git"
   },
   "keywords": [
     "typescript",
